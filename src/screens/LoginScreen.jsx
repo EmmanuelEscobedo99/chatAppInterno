@@ -3,7 +3,7 @@ import { View, TextInput, Button, Alert, StyleSheet, Text, TouchableOpacity } fr
 import axios from "axios";
 import { AuthContext } from "../context/AuthContext";
 
-const API = "http://192.168.1.31:4000/api/auth"; // tu backend
+const API = "http://192.168.1.31:4000/api/auth"; // backend
 
 export default function LoginScreen({ navigation }) {
   const { setUser, setToken } = useContext(AuthContext);
